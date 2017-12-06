@@ -17,7 +17,7 @@ public final class Base64ModelLoader implements ModelLoader<String, ByteBuffer> 
   @Nullable
   @Override
   public LoadData<ByteBuffer> buildLoadData(String model, int width, int height, Options options) {
-    return new LoadData<>(new ObjectKey(model), /*fetcher=*/ null);
+    return new LoadData<>(new ObjectKey(model), new Base64DataFetcher(model));
   }
 
   @Override
