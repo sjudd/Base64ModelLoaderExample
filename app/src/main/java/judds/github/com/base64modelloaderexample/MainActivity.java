@@ -1,7 +1,7 @@
-package judds.github.com.base64imageexample;
+package judds.github.com.base64modelloaderexample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
   @Override
